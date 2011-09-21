@@ -1,6 +1,9 @@
 Web App Theme
 =============
 
+This is my fork of jweslley's fork of web-app-theme for Rails 3.1 support so I can ensure
+my Gemfile will stay pointed correctly.
+
 Web App Theme is a rails generator by [Andrea Franz](http://gravityblast.com) that you can use to generate admin panels quickly.
 Inspired by cool themes like [Lighthouse](http://lighthouseapp.com/), [Basecamp](http://basecamphq.com/), [RadiantCMS](http://radiantcms.org/) and others,
 it wants to be an idea to start developing a complete web application layout.
@@ -17,7 +20,7 @@ Specify the web-app-theme gem in your Gemfile, only for :development and :test
 
 If you want to use with Rails 3.1, add the following line in your `Gemfile`:
 
-    gem 'web-app-theme', :git => 'git://github.com/jweslley/web-app-theme.git'
+    gem 'web-app-theme', :git => 'git://github.com/yrgoldteeth/web-app-theme.git'
 
 Usage
 -----
